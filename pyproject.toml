@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exrqa"
+version = "0.1.0"
+description = "Extended recurrence plot (LM2P) and determinism indicator (DDET) for noisy continuous systems (Wendi & Marwan 2018)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+dev = ["pytest", "matplotlib>=3.5", "nbclient", "nbformat", "ipykernel"]
+
+[tool.setuptools]
+packages = ["exrqa"]

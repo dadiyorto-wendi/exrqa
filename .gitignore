@@ -1,0 +1,19 @@
+# Python and environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# editor settings
+.vscode/
+
+# notebook generator scripts (the executed notebooks are committed instead)
+notebooks/build_*.py
+
+# the published paper PDF (the README links to the DOI)
+paper/
