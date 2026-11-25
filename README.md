@@ -31,7 +31,7 @@ On the Lorenz system with 20 dB noise, the LM2P plot stays close to the noise-fr
 ## Install
 
 ```bash
-git clone <this repository> && cd <repository folder>
+git clone https://github.com/dadiyorto-wendi/exrqa.git && cd exrqa
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"      # numpy only for the package; [plot] adds matplotlib, [dev] adds tests and notebooks
 python -m pytest -q tests
@@ -136,3 +136,7 @@ If you use this code, please cite the paper:
   doi     = {10.1063/1.5025485}
 }
 ```
+
+## License
+
+MIT License, © 2026 Dadiyorto Wendi. See [LICENSE](LICENSE).
